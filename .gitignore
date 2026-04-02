@@ -47,6 +47,7 @@ Thumbs.db
 Desktop.ini
 .vscode/
 .idea/
+frontend/.git-backup/
 
 # Misc
 *.tmp
