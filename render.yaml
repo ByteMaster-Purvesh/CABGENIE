@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: cabgenie-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: FRONTEND_URL
+        value: https://bytemaster-purvesh.github.io
+      - key: FRONTEND_URLS
+        value: https://bytemaster-purvesh.github.io,http://localhost:3000
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_EXPIRE
+        value: 7d
