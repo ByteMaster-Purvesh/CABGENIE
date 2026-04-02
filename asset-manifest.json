@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CABGENIE/static/css/main.319a5a7e.css",
+    "main.js": "/CABGENIE/static/js/main.89909463.js",
+    "static/js/453.670e15c7.chunk.js": "/CABGENIE/static/js/453.670e15c7.chunk.js",
+    "index.html": "/CABGENIE/index.html",
+    "main.319a5a7e.css.map": "/CABGENIE/static/css/main.319a5a7e.css.map",
+    "main.89909463.js.map": "/CABGENIE/static/js/main.89909463.js.map",
+    "453.670e15c7.chunk.js.map": "/CABGENIE/static/js/453.670e15c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.319a5a7e.css",
+    "static/js/main.89909463.js"
+  ]
+}
